@@ -5,7 +5,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100%
 }
 
 body {
@@ -63,19 +63,45 @@ body {
     background-size: cover;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
 .content-top,
 .content-middle,
 .content-bottom {
     padding-left: 48px;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .content-top,
 .content-bottom {
-    height: 30%;
-    background-color: rgb(248, 248, 248);
+    height: 35%;
+    background-color: rgb(250, 250, 250);
 }
 
 .content-middle {
-    height: 40%;
+    height: 30%;
     background-color: rgb(255, 255, 255);
+}
+
+.content-top {
+    justify-content: space-around;
+    padding-right: 25%;
+}
+
+.content-top h2 {
+    font-size: 1.75em;
+}
+
+.content-top h2:first-of-type {
+    margin-top: 100px;
+}
+
+.content-top h2:last-of-type {
+    margin-bottom: 40px;
 }
