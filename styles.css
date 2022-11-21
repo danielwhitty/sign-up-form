@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -38,8 +39,9 @@ body {
 .sidebar-title h1 {
     margin: 0;
     color: white;
-    font-size: 68px;
+    font-size: 78px;
     text-align: center;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 .sidebar p {
