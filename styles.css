@@ -173,3 +173,13 @@ label {
    text-decoration: none; 
    color: rgb(48, 131, 204);
 }
+
+.error,
+input.error:focus {
+    outline: 2px solid rgb(196, 70, 65);
+}
+
+.password-match,
+input.password-match:focus {
+    outline: 2px solid rgb(29, 162, 58);
+}
